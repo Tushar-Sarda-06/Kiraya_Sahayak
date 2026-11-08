@@ -2,7 +2,7 @@
 
 A chat assistant for ordinary tenants in Bengaluru. You describe your problem in English, Hindi, Hinglish or Kannada; it tells you where you stand under the actual text of the law, what your options are, what it doesn't know, and when you need a real lawyer.
 
-**Live app:** https://kirayasahayak-gchckksxu2s4vcza5wdwtl.streamlit.app/  ·  **Build notebook:** `notebooks/Cellwise_KukuFM.ipynb`  ·  **Test cases + raw outputs:** `eval/`
+**Live app:** https://kirayasahayak-gchckksxu2s4vcza5wdwtl.streamlit.app/  ·  **Build notebook:** `Cellwise_KukuFM.ipynb`  ·  **Test cases + raw outputs:** `eval_*.jsonl / *.csv`
 
 ---
 
@@ -43,7 +43,7 @@ message → [fake-section check] → [intake] → [red-flag rules] → [retrieva
 5. **Fake-section guard in code** before any model runs.
 6. **Visible evidence.** Every answer shows the retrieved law text, with cited sections marked.
 
-## 4. Evaluation (27 test cases, raw outputs in `eval/`)
+## 4. Evaluation (27 test cases, raw outputs in `eval_*.jsonl / *.csv`)
 
 Test set: 11 grounded questions, 3 coverage gaps / myths, 4 escalation cases, 2 fake sections, 3 out-of-scope, 4 multilingual (Hindi, Kannada, Hinglish). Each has gold labels and an expected-behaviour sentence.
 
@@ -77,6 +77,8 @@ Test set: 11 grounded questions, 3 coverage gaps / myths, 4 escalation cases, 2 
 ## 5. Cost and scale
 
 ~3.3 LLM calls and ~7,500 tokens per conversation → **≈ $0.002 per conversation** at Groq paid rates (≈ $200 per 100,000 conversations). Retrieval runs locally; embeddings are computed once. Free tier caps daily tokens per model (hit after ~30 conversations during testing) — real use needs the paid tier. Latency (≈45 s) is dominated by the answer + fact-check calls; lower reasoning effort or a single combined call would cut it.
+
+ “Live demo runs on Groq’s free tier; heavy use may hit the daily limit.”
 
 ## 6. Limitations
 - Rent Act text is the original 2001 version — later amendments (e.g. 2025 decriminalisation of offences) are not reflected.
