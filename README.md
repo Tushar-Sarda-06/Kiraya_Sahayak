@@ -64,6 +64,7 @@ Test set: 11 grounded questions, 3 coverage gaps / myths, 4 escalation cases, 2 
 | Operations | latency p50 / p95 · cost per conversation | 44 s / 90 s · $0.002 |
 
 **Manual checks against the Act text** (examples): water cut-off answer — s.49(1) "just and sufficient cause", s.49(5)(b) compensation up to ₹50, s.54(ix) penalty — all correct. A deposit question first produced "refund within 90 days with 12% interest" citing s.28(2) — a real section, but it applies only after court-ordered eviction. The fact-checker caught it; that case is why the fact-check layer exists.
+Test cases: test_cases.csv · Readable inputs + outputs: test_cases_and_outputs.md · Raw outputs: eval_runs.jsonl
 
 ### Honest failures
 - **Too cautious.** The fact-checker sometimes rejects valid claims (e.g. "you can apply to the Controller" because the user hasn't applied yet). With all-or-nothing fallback, 52% of questions get "can't verify" instead of an answer. Safe, but often unhelpful. *Designed fix (not shipped):* drop only failing claims and recalibrate the fact-check prompt.
