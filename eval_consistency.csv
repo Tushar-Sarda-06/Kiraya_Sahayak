@@ -1,0 +1,6 @@
+id,topic_agree,mode_agree,cited_section_jaccard,fallbacks
+G01,True,True,1.0,3
+G05,True,True,1.0,3
+G07,False,False,0.33,2
+M01,True,False,0.0,1
+E01,True,True,1.0,3

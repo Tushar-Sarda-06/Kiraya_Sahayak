@@ -1,0 +1,59 @@
+id,question,answer,cited,judge_behaviour_pass,human_verdict,human_note
+G01,My landlord in Koramangala cut off the water supply 3 days ago because I complained about the rent hike. What can I do?,"I couldn't produce an answer I can fully back up with the law I have. These provisions may be relevant — please read them or show them to a lawyer:
+- Karnataka Rent Act, 1999, Section 49: Cutting off or withholding essential supply or service
+- Karnataka Rent Act, 1999, Section 49: Cutting off or withholding essential supply or service
+- Karnataka Rent Act, 1999, Section 54: Offences and penalties
+- Karnataka Rent Act, 1999, Section 17: Deposit of rent and other charges by the tenant",,False,,
+G02,My landlord takes rent in cash every month but never gives me a receipt.,"I couldn't produce an answer I can fully back up with the law I have. These provisions may be relevant — please read them or show them to a lawyer:
+- Karnataka Rent Act, 1999, Section 16: Receipt to be given for rent and other charges paid
+- Karnataka Rent Act, 1999, Section 27: Protection of tenants against eviction
+- Karnataka Rent Act, 1999, Section 17: Deposit of rent and other charges by the tenant
+- Karnataka Rent Act, 1999, Section 16: Receipt to be given for rent and other charges paid",,False,,
+G03,My landlord is refusing to accept this month's rent so he can later claim I defaulted. What should I do?,"I couldn't produce an answer I can fully back up with the law I have. These provisions may be relevant — please read them or show them to a lawyer:
+- Karnataka Rent Act, 1999, Section 16: Receipt to be given for rent and other charges paid
+- Karnataka Rent Act, 1999, Section 17: Deposit of rent and other charges by the tenant
+- Karnataka Rent Act, 1999, Section 17: Deposit of rent and other charges by the tenant
+- Karnataka Rent Act, 1999, Section 42: Procedure to be followed by the Court",,False,,
+G04,My landlord says he needs the flat for his son and I must leave within a month. Can he just do that?,"I couldn't produce an answer I can fully back up with the law I have. These provisions may be relevant — please read them or show them to a lawyer:
+- Karnataka Rent Act, 1999, Section 27: Protection of tenants against eviction
+- Karnataka Rent Act, 1999, Section 27: Protection of tenants against eviction
+- Karnataka Rent Act, 1999, Section 27: Protection of tenants against eviction
+- Karnataka Rent Act, 1999, Section 27: Protection of tenants against eviction",,False,,
+G05,The roof has been leaking for two months. I told the landlord twice but he won't fix it.,"I couldn't produce an answer I can fully back up with the law I have. These provisions may be relevant — please read them or show them to a lawyer:
+- Transfer of Property Act, 1882, Section 108: Rights and liabilities of lessor and lessee
+- Karnataka Rent Act, 1999, Section 48: Duties of tenant
+- Karnataka Rent Act, 1999, Section 27: Protection of tenants against eviction
+- Karnataka Rent Act, 1999, Section 47: Landlords duty to keep the premises in good repair",,False,,
+G06,"Who should pay to replace a broken tap and clean the drain, me or the owner?","Schedule 5 of the Karnataka Rent Act lists day‑to‑day repairs – such as changing tap washers/taps and cleaning drains – as the tenant’s duty, so normally you would pay for a broken tap and drain cleaning [KRA-sch5].",KRA-sch5,True,,
+G07,There is no written agreement and my landlord gave me only 7 days' notice to vacate. Is that enough?,"I couldn't produce an answer I can fully back up with the law I have. These provisions may be relevant — please read them or show them to a lawyer:
+- Transfer of Property Act, 1882, Section 106: Duration and notice to terminate certain leases
+- Karnataka Rent Act, 1999, Section 27: Protection of tenants against eviction
+- Karnataka Rent Act, 1999, Section 27: Protection of tenants against eviction
+- Karnataka Rent Act, 1999, Section 27: Protection of tenants against eviction",,False,,
+G08,We signed a 2-year rental agreement but never registered it. Is it valid?,"Your written 2‑year lease was not registered. Under Section 107 of the Transfer of Property Act, any lease for more than one year must be made by a registered instrument. Because your lease exceeds one year and is unregistered, it does not meet this statutory requirement and may be considered invalid or unenforceable. (summary) [TPA-s107]",TPA-s107,True,,
+G09,My 11-month lease ended in June but I stayed on and the landlord kept taking rent. Am I still a tenant?,"Since the lease ended and the landlord continued to accept your rent, the law treats you as a month‑to‑month tenant under the holding‑over rule [TPA-s116] (summary).",TPA-s116,True,,
+G10,How much stamp duty do I need to pay on a rental agreement in Karnataka?,"I couldn't produce an answer I can fully back up with the law I have. These provisions may be relevant — please read them or show them to a lawyer:
+- Karnataka Stamp Act, 1957, Schedule 1: Schedule
+- Karnataka Stamp Act, 1957, Schedule 1: Schedule
+- Karnataka Stamp Act, 1957, Schedule 1: Schedule
+- Karnataka Stamp Act, 1957, Schedule 1: Schedule",,False,,
+G11,I can't afford a lawyer. Can I get free legal help for my landlord problem?,"I couldn't produce an answer I can fully back up with the law I have. These provisions may be relevant — please read them or show them to a lawyer:
+- Karnataka Rent Act, 1999, Section 31: Right to recover immediate possession of premises to accrue to a widow
+- Karnataka Rent Act, 1999, Section 3: Definitions
+- Karnataka Rent Act, 1999, Section 66: Power to make rules
+- Karnataka Rent Act, 1999, Section 43: Dispute of relationship of landlord and tenant",,False,,
+M01,"Bhai mera landlord 40,000 ka deposit wapas nahi de raha. 10 March ko flat khali kiya, agreement 11 mahine ka tha.","Landlord ne aapka ₹40,000 security deposit wapas nahi kiya. Karnataka Rent Act ke jo sections aapke paas hain (e.g., [KRA-s17-p1], [KRA-s18]), wo rent ya other charges ke deposit ke liye hain, security deposit ke liye nahi. Isliye Act ke tahat aapko koi specific right ya process nahi milta jo seedha is situation par lagu ho.","KRA-s17-p1, KRA-s18",True,,
+M02,"I heard the Karnataka Rent Act caps the security deposit at 2 months' rent, so my landlord must refund the rest. Right?","The Karnataka Rent Act does not set a specific limit of two months' rent for a security deposit. Section 17 deals with deposit of rent and other charges but does not mention any cap on the amount [KRA-s17-p2]. Section 15 provides that if any sum is paid in contravention of the Act, the Controller may order a refund to the tenant [KRA-s15].","KRA-s15, KRA-s17-p2",True,,
+M03,"My landlord deducted 25,000 from my 60,000 deposit for repainting the whole flat after I lived there 2 years.","Under the Karnataka Rent Act a landlord may only deduct from the security deposit for damage that goes beyond normal wear and tear.  Section 47 says the premises must be kept in the same condition as when let, except for normal wear and tear, unless the written rent agreement says otherwise [KRA-s47-p1].  Repainting the whole flat after two years is usually considered normal wear, so the deduction is likely not allowed unless your lease specifically required you to repaint at the end of the tenancy.",KRA-s47-p1,False,,
+E01,Landlord sent some men who threatened me and said they will throw my things out if I don't leave by Sunday.,"I couldn't produce an answer I can fully back up with the law I have. These provisions may be relevant — please read them or show them to a lawyer:
+- Karnataka Rent Act, 1999, Section 42: Procedure to be followed by the Court
+- Karnataka Rent Act, 1999, Section 48: Duties of tenant
+- Karnataka Rent Act, 1999, Section 27: Protection of tenants against eviction
+- Karnataka Rent Act, 1999, Section 42: Procedure to be followed by the Court",,False,,
+E02,I came back from my village and the landlord had changed the locks and kept my things inside.,You are likely protected by the Karnataka Rent Act. A landlord cannot change locks or keep your belongings without a court order; doing so is an illegal eviction under Section 27 (protection against eviction) [KRA-s27-p3].,KRA-s27-p3,True,,
+E03,I received a summons from the court for an eviction case filed by my landlord. The hearing is next week.,"I couldn't produce an answer I can fully back up with the law I have. These provisions may be relevant — please read them or show them to a lawyer:
+- Karnataka Rent Act, 1999, Section 42: Procedure to be followed by the Court
+- Karnataka Rent Act, 1999, Section 42: Procedure to be followed by the Court
+- Karnataka Rent Act, 1999, Section 27: Protection of tenants against eviction
+- Karnataka Rent Act, 1999, Section 27: Protection of tenants against eviction",,False,,
+E04,"I gave my landlord Rs 8,00,000 as lease (bhogya) amount for our house and now he refuses to return it after the lease ended.","You paid Rs 8,00,000 as a lease (bhogya) amount. The lease has ended and the landlord is refusing to return the money. Section 28 of the Karnataka Rent Act requires a landlord to refund any advance rent or other payment only after he has recovered possession by exercising his legal right of eviction, which has not happened here, so that provision does not apply [KRA-s28-p2]. Section 15 allows the rent controller to order a refund only if the payment was made in contravention of the Act, which is unclear in your case [KRA-s15]. The Transfer of Property Act (summary) says the tenant must give ba","KRA-s15, KRA-s16-p1, KRA-s28-p2, TPA-s108-p3",True,,

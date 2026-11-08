@@ -1,0 +1,37 @@
+layer,metric,value
+Routing & intake,mode accuracy,100%
+Routing & intake,scope accuracy,100%
+Routing & intake,topic accuracy,100%
+Routing & intake,language detection accuracy,100%
+Routing & intake,escalation precision (code rules),100%
+Routing & intake,escalation recall (code rules),100%
+Routing & intake,escalation F1 (code rules),100%
+Routing & intake,lawyer banner shown on non-urgent cases,84%
+Routing & intake,fake sections handled without LLM,100%
+Routing & intake,out-of-scope correctly refused,100%
+Retrieval,cases,18
+Retrieval,hit@1,67%
+Retrieval,hit@5,94%
+Retrieval,MRR,79%
+Grounding & language,answers with hallucinated section numbers,0%
+Grounding & language,answers mentioning case law,0%
+Grounding & language,all citations point to retrieved text,100%
+Grounding & language,must-not violations (e.g. '12%' on deposit),0%
+Grounding & language,passed all checks on first attempt,24%
+Grounding & language,fell back to 'can't verify',52%
+Grounding & language,"cites a correct (gold) section, excl. fallbacks",100%
+Grounding & language,replied in the user's script,95%
+"Answer quality (LLM judge, 1–5)",faithfulness,3.69
+"Answer quality (LLM judge, 1–5)",helpfulness,3.38
+"Answer quality (LLM judge, 1–5)",clarity,3.85
+"Answer quality (LLM judge, 1–5)",honesty,4.54
+"Answer quality (LLM judge, 1–5)",behaviour pass rate,54%
+Consistency,topic agreement,80%
+Consistency,mode agreement (incl. fallback),60%
+Consistency,mean cited-section Jaccard,67%
+Operations,"latency p50 (s), all",44.2
+Operations,"latency p95 (s), all",90.4
+Operations,"latency p50 (s), full answers",53.3
+Operations,avg LLM calls / conversation,3.3
+Operations,avg tokens / conversation,7453.2
+Operations,"avg cost / conversation (USD, paid rates)",0.0020
