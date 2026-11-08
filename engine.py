@@ -14,6 +14,8 @@ from groq import Groq, BadRequestError
 
 BASE_DIR = Path(__file__).parent
 INDEX_DIR = BASE_DIR / "data" / "index"
+if not (INDEX_DIR / "chunks.jsonl").exists():      # files uploaded flat at repo root
+    INDEX_DIR = BASE_DIR
 
 # ======================================================================
 # Retrieval (Cell 10)
