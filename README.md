@@ -2,7 +2,7 @@
 
 A chat assistant for ordinary tenants in Bengaluru. You describe your problem in English, Hindi, Hinglish or Kannada; it tells you where you stand under the actual text of the law, what your options are, what it doesn't know, and when you need a real lawyer.
 
-**Live app:** _<add Streamlit link>_  ·  **Build notebook:** `notebooks/Cellwise_KukuFM.ipynb`  ·  **Test cases + raw outputs:** `eval/`
+**Live app:** https://kirayasahayak-gchckksxu2s4vcza5wdwtl.streamlit.app/  ·  **Build notebook:** `notebooks/Cellwise_KukuFM.ipynb`  ·  **Test cases + raw outputs:** `eval/`
 
 ---
 
